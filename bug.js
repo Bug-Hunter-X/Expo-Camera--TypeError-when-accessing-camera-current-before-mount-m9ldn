@@ -1,0 +1,1 @@
+This bug occurs when using the Expo `Camera` API and attempting to access the `camera.current` object before the component has mounted.  This often leads to a `TypeError: Cannot read properties of undefined (reading 'current')` error.
